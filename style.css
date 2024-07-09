@@ -2,6 +2,15 @@ body {
   font-family: 'Courier New', Courier, monospace;
   background-color: pink;
 }
+#content-div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  margin: 5px 0px;
+}
 #container {
   width:600px;
   height:600px;
