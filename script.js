@@ -7,18 +7,21 @@ container.addEventListener('mousedown', ()=>{
 container.addEventListener('mouseup', ()=>{
   mouseDown = false;
 })
+container.addEventListener('mouseleave', ()=>{
+  mouseDown = false;
+})
 for (let i = 0; i < width; i++) {
   for (let i = 0; i < width; i++) {
     let newPixel = document.createElement("div");
     newPixel.style.width = 600/width + 'px' ;
     newPixel.style.height = 600/width + 'px';
     newPixel.classList.add("pixel");
-    newPixel.addEventListener('mouseover', ()=> {
+    newPixel.addEventListener('mousemove', ()=> {
       if (mouseDown) {
-      newPixel.style.backgroundColor = 'black';
+        newPixel.style.backgroundColor = 'black';
       }
     })
-    newPixel.addEventListener('click', ()=> {
+    newPixel.addEventListener('mousedown', ()=> {
       newPixel.style.backgroundColor = 'black';
     })
     container.appendChild(newPixel);
