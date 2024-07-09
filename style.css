@@ -1,10 +1,17 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  background-color: pink;
 }
-
 #container {
   width:600px;
   height:600px;
-  background-color: pink;
+  display:flex;
+  flex-wrap:wrap;
 }
+.pixel{
+  background-color: rgb(255, 255, 255);
 
+}
+.pixel:hover {
+  background-color: rgb(226, 226, 226);
+}
