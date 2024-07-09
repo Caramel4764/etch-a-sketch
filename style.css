@@ -1,0 +1,10 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+  width:600px;
+  height:600px;
+  background-color: pink;
+}
+
