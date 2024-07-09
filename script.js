@@ -18,6 +18,9 @@ for (let i = 0; i < width; i++) {
       newPixel.style.backgroundColor = 'black';
       }
     })
+    newPixel.addEventListener('click', ()=> {
+      newPixel.style.backgroundColor = 'black';
+    })
     container.appendChild(newPixel);
   }
 }
