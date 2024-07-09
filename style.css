@@ -1,7 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   background-color: pink;
-  user-drag: none;
+  -user-drag: none;
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
