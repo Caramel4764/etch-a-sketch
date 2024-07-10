@@ -22,6 +22,7 @@ body {
   height:600px;
   display:flex;
   flex-wrap:wrap;
+  flex:1;
 }
 .pixel{
   background-color: rgb(255, 255, 255);
@@ -29,4 +30,22 @@ body {
 }
 .pixel:hover {
   background-color: rgb(226, 226, 226);
+}
+#screen-div {
+  display:flex;
+}
+#color-div {
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#page-div {
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
